@@ -1,5 +1,5 @@
       <footer class="row">
-          <div class="four columns">
+          <div class="four columns" class="foot">
               <?php dynamic_sidebar('footer-one'); ?>
           </div>
 
