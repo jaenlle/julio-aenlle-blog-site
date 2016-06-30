@@ -4,17 +4,14 @@
 get_header(); ?>
 
     <div class="row">
-        <div class="eight columns">
-            <h1 class="404h1">404</h1>
-            <h2 class="404h2">The page you're looking does not exist. Please use your back button, navigation links, or the search feature in the sidebar to navigate away from this page.</h2>
-            <h3>Use a Search party to find it! </h3>
+        <div class="twelve columns" class="404">
+            <h1>404</h1>
+            <img class="sadpanda" src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/06/scale.jpg" alt="sad panda" />
+            <p>The page you're looking does't exist. Please use your back button, the menu, or the search feature below to navigate away from this page.</p>
 
-            <?php get_search_form(); ?>
-        </div>
-        <div class="four colums">
-            <?php get_sidebar(); ?>
-        </div>
+            <div class="searchcenter"><?php get_search_form(); ?></div>
 
+        </div>
     </div>
 
 <?php get_footer(); ?>

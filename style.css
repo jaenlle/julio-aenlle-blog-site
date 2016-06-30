@@ -32,9 +32,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #777;
 }
 
-h1, h2, h3, h4, h5, h6 {
-}
-
 h1 {
     font-size: 3.0rem;
     letter-spacing: 2px;
@@ -65,12 +62,22 @@ a {
     color: #777;
 }
 
-/*header, footer {
-    padding-bottom: 40px;
+label {
+    font-family: 'Robot', sans-serif;
+    color: orange;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
+p {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+/*------------------------------------------------------ Header Elements ---*/
+
 header {
-    border-bottom: 3px solid red;
+
 }
 
 header h1 {
@@ -89,15 +96,50 @@ header img {
     margin: 0 auto;
 }
 
+/*------------------------------------------------------ Footer Elements ---*/
+
 footer {
-    border-top: 3px solid red;
-    padding-top: 40px;
+    border-top: 2px solid orange;
+    padding-top: 60px;
 }
 
-header h3, header h5 {
-    color: gray;
-}*/
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    text-align: center;
+    font-size: .8rem;
+}
 
+footer ul {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+}
+
+footer a {
+    margin: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    color: orange;
+}
+
+footer a:hover {
+    color: #cccccc;
+    padding-bottom: 2px;
+    border-bottom: 2px solid orange;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    text-align: center;
+    font-size: .8rem;
+}
 /*------------------------------------------------------ Banner Elements ---*/
 
 .bannerimage {
@@ -130,7 +172,7 @@ header h3, header h5 {
 
 .blank-menu-header {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0px 40px;
     margin-bottom: 60px;
 }
 .blank-menu-header ul {
@@ -155,23 +197,28 @@ header h3, header h5 {
     border-bottom: 2px solid orange;
 }
 
-/*------------------------------------------------------ Footer Elements ---*/
-
-.foot h1 {
-    font-family: 'Montserrat', sans-serif;
-}
-
 /*------------------------------------------------------ 404 Page ---*/
 
 .404 h1 {
     color: orange;
     font-size: 3rem;
     letter-spacing: 2px;
-    margin-bottom:
 }
 
-.404 h2 {
+.404 p {
     line-height: 2rem;
     text-align: justify;
 
 }
+
+.sadpanda {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchcenter {
+    text-align: center;
+}
+
+/*------------------------------------------------------ Search Page ---*/

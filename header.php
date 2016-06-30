@@ -14,7 +14,7 @@
 
           <div class="twelve columns">
 
-              <a href="http//www.julioaenlle.net/jaenllewordpress" target="_self"><img class="bannerimage" src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/06/logo.png" height="100px" /></a>
+              <a href="/jaenllewordpress" target="_self"><img class="bannerimage" src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/06/logo.png" height="100px" /></a>
               <h1 class="bannerh1">JULIO AENLLE <span style="color: orange">CREATIVE</span></h1>
               <!--<h3><a href="<?php $url = home_url('/'); echo $url; ?>"><?php bloginfo ('name'); ?></a></h3>-->
               <p class="bannerp"><?php bloginfo ('description'); ?></p>
@@ -34,3 +34,4 @@
                       )); ?>
               </div>
           </div>
+      </header>

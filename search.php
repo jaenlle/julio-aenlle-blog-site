@@ -3,7 +3,7 @@
 get_header(); ?>
 
     <div class="row">
-      <div class="eight columns">
+      <div class="twelve columns">
           <?php if( have_posts() ) :?>
             <h1>
                 <?php printf(
@@ -18,12 +18,9 @@ get_header(); ?>
             endwhile;//End While
            else : ?>
             <h1>Nothing Found</h1>
-            <p>Sorry, but nothing matched your search criteria. Please try again with different search terms.</p>
+            <img src="http://julioaenlle.net/jaenllewordpress/wp-content/uploads/2016/06/scale.jpg" alt="sad panda" />
+            <p>Sorry, but nothing matched your search criteria. Please try again.</p>
           <?php endif; ?><!-- End If -->
-      </div>
-
-      <div class="four columns">
-          <?php get_sidebar(); ?>
       </div>
 
     </div>
